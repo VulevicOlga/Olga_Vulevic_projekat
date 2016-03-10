@@ -1,0 +1,323 @@
+/*	projekat: CRNVO
+	autor: Olga Vulevic	
+*/
+/* BASE */
+/* MODULES */
+/* LAYOUTS */
+a,
+a:focus,
+a:hover {
+  color: black;
+}
+.btn-default,
+.btn-default:hover,
+.btn-default:focus {
+  color: white;
+  text-shadow: none; 
+  background-color:  rgba(51, 71, 157, 0.8);
+  border: 1px solid  rgba(51, 71, 157, 0.8);
+  padding-right: 160px;
+  
+}
+
+html,
+body {
+  height: 100%;
+  background-color:black;
+
+  
+}
+
+html {
+  height: 100%;
+}
+body {
+  min-height: 100%;
+}
+
+body {
+  color:rgba(51,71,157,0.8);
+  text-align: left;
+  text-shadow: 0 1px 3px rgba(0,0,0,.5);  
+  padding-top: 0px;
+  padding-bottom: 15px;
+  
+
+}
+
+
+h1 {
+	 text-align: left;
+	 font-weight: bold;
+	 color: white;	 
+}
+#tirkiz{
+	background-color: rgba(123,191,227,0.8);
+}
+#plavo{
+ background-color:rgba(51, 71, 157, 0.8);
+}
+
+.inner {
+ 
+  padding: 20px;
+  background-color: white;
+  padding-bottom: 0px;
+  padding-left: 20px;
+  padding-right: 20px;
+  
+}
+
+
+*, *:after, *:before {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing:border-box;
+}
+
+.row { 
+		padding-right:15px;
+	    padding-left: 15px;
+ }
+
+.row > [class*='col-'] { /* ... */ }
+.row > [class*='col-']:last-of-type { /* ... */ }
+
+[class*="col-"] {
+    float:left; 
+    height:300px;
+    background-color: rgba(233,247,254,1);
+    border: 0px ;
+    padding-right:20px;
+	padding-left: 20px;
+}
+
+[class*=col-]:last-of-type {
+    padding-right:20px;
+	padding-left: 20px;
+}
+
+#kol1{
+	background-color: white;
+}
+#kol1 > h2 {
+	color: rgba(123,191,227,1);
+	
+}
+#kol1 > h2  > span{
+	color: rgba(123,191,227,1);
+	font-weight: bold;
+}
+#kol2 > h2 {	
+	color: black;
+}
+#kol2 > h2  > span{
+	color: rgba(51, 71, 157, 0.8);
+	font-weight: bold;
+}
+
+#kol3> h2 {	
+	color: black;
+}
+#kol3 > h2  > span{
+	color: rgba(51, 71, 157, 0.8);
+	font-weight: bold;
+}
+
+.masthead-nav > li {
+  display: inline-block;
+  float:left;
+}
+.masthead-nav > li + li {
+  margin-left: 20px;
+}
+.masthead-nav > li > a {
+  padding-right: 90px;
+  padding-left: 0;
+  padding-bottom: 20px; 
+  font-size: 16px;
+  font-weight: bold;
+  color: #fff; /* IE8 proofing */
+  color: rgba(51,71,157,.75);
+  border-bottom: 5px solid transparent;
+}
+.masthead-nav > li > a:hover,
+.masthead-nav > li > a:focus {
+  background-color: transparent;
+  color: black;
+  border-bottom-color: rgba(51,71,157,.75);
+}
+.masthead-nav > .active > a,
+.masthead-nav > .active > a:hover,
+.masthead-nav > .active > a:focus {
+  color: black;
+  border-bottom-color:rgba(51,71,157,.75);
+}
+
+.masthead-nav > ul {
+	display: inline;
+	width: 200px;
+	height: 40px;
+}
+.i_slider{
+	
+	position: absolute;
+	background-color:white;
+	color:gray;
+	margin-left:10%;
+	margin-top:13px;
+	width: 717px;
+	border-radius: 7px;
+	
+	
+}
+.i_transparent{
+ background-color: rgba(0,0,0,0.65); 
+ width: 100%;
+ position:absolute;
+ font-family: Verdana, Geneva, sans-serif;
+ color: #FFF;
+ z-index: 1;
+ height:67px;
+ display:none;
+
+ 
+}
+#showit:hover ~ .i_transparent{
+	display:block;
+}
+.mastfoot {
+position: transparent;
+
+}
+.mastfoot > p{
+	
+	color:rgba(103,170,203,.75);
+	background-color: black;
+	display: block;
+	left: 327px; 	
+	top: 955px; 
+	
+	position: absolute; 
+	width: 290px;
+	height: 40px;
+}
+.slp{
+	text-align: left;
+	text-decoration: bold;
+	
+}
+
+@media (min-width: 768px) {  
+  .masthead-nav {
+    float: right;
+	
+  }
+}
+.f1{
+	color:rgba(103,170,203,.75);
+	float: left;
+	padding-top:15px;
+	padding-bottom:15px;
+	padding-left: 120px;
+	
+	
+}
+.f2{
+	color:rgba(103,170,203,.75);
+	float:right;
+	padding-top:15px;
+	padding-bottom:15px;
+	padding-right: 120px;
+}
+
+
+.i_26{
+	width:26.66666%;
+	float:left;
+	padding:10px;
+	border-right:1px solid gray;
+}
+.i_20{
+	width:20%;
+	float:left;
+	padding:10px;
+	background-color:#7AC8EF;
+	color:#fff;
+	text-align:center;
+	border-right:1px solid #7AC8EF;
+}
+
+
+.i_26:hover{
+	color:#33479D;
+	cursor:pointer
+}
+.i_20:hover{
+	color:#33479D;
+	cursor:pointer
+}
+.pull-right{
+	padding-right: 200px;
+}
+.gap-right {
+  margin-right: 10px; 
+}
+.glyphicon-search {
+ margin-left: 25px; 
+}
+.glyphicon-menu-down{
+	margin-left: 10px; 
+}
+
+.carousel-inner .item
+{
+	width: 100%;
+}
+
+.carousel-inner .item img
+{
+	width: 100%;
+}
+.trans
+{
+	background: transparent;
+}
+.black{
+	background-color:black;
+}
+.section-light{
+	background: url('../img/pozadina.jpg');
+}
+.section-white{
+	background-color:white;
+}
+.carousel-indicators > li {
+	background-color: white;
+	border: 2px solid rgba(123,191,227,0.8);
+	width: 15px;
+	height: 15px;
+	float:right;
+	margin: 5px;
+}
+.carousel-indicators .active {
+	background-color:rgba(51, 71, 157, 1);
+	border: 1px solid rgba(51, 71, 157, 1);
+	width: 17px;
+	height: 17px;
+	margin: 5px;
+}
+#sirina{
+	width:160px;
+	padding-top: 10px;
+}
+#slika{
+	padding-right: 195px;
+}
+.carousel-control .glyphicon-chevron-left, .carousel-control .glyphicon-chevron-right, .carousel-control .icon-prev, .carousel-control .icon-next {
+    width: 30px;
+    height: 30px;
+    margin-top: -10px;
+    font-size: 60px;
+}
+
